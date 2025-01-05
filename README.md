@@ -67,9 +67,14 @@ shap_values = explainer.shap_values(X_test)
 
 
 
-Output:
+# Output:
 
 ![image](https://github.com/user-attachments/assets/9f547aa0-7a07-48ad-a8e8-737ef8475df2)
+
+
+# result:
+
+The Random Forest Classifier successfully predicts credit risk by leveraging multiple decision trees to make robust predictions. The model demonstrated good performance in classifying credit risk, with reasonable precision, recall, and F1-scores, indicating its effectiveness in distinguishing between high and low credit risk individuals.
 
 
 
