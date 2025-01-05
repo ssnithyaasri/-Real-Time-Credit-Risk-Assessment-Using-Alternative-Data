@@ -1,9 +1,9 @@
-t-Risk-Assessment-Using-Alternative-Data
+Risk-Assessment-Using-Alternative-Data
 
-Aim:
+# Aim:
 This system aims to revolutionize credit risk assessment by integrating traditional data sources, improving accuracy, and expanding access to credit for underserved populations.
 
-ALGORITHM:
+# ALGORITHM:
 We used a Random Forest Classifier to predict credit risk based on various features. The model combines multiple decision trees to improve accuracy and reduce overfitting. Data preprocessing included handling missing values, encoding categorical features, and standardizing numerical data. The model's performance was evaluated using classification metrics, and SHAP was employed to visualize feature importance for model interpretability. This approach provides both accurate predictions and insights into the key factors influencing decisions.
 
 code :
