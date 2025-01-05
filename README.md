@@ -1,7 +1,10 @@
-# -Real-Time-Credit-Risk-Assessment-Using-Alternative-Data
+t-Risk-Assessment-Using-Alternative-Data
 
 Aim:
-This system aims to revolutionize credit risk assessment by integrating non-traditional data sources, improving accuracy, and expanding access to credit for underserved populations.
+This system aims to revolutionize credit risk assessment by integrating traditional data sources, improving accuracy, and expanding access to credit for underserved populations.
+
+ALGORITHM:
+We used a Random Forest Classifier to predict credit risk based on various features. The model combines multiple decision trees to improve accuracy and reduce overfitting. Data preprocessing included handling missing values, encoding categorical features, and standardizing numerical data. The model's performance was evaluated using classification metrics, and SHAP was employed to visualize feature importance for model interpretability. This approach provides both accurate predictions and insights into the key factors influencing decisions.
 
 code :
 
@@ -59,6 +62,8 @@ print(classification_report(y_test, y_pred))
 # Explainability using SHAP
 explainer = shap.TreeExplainer(model)
 shap_values = explainer.shap_values(X_test)
+
+```
 
 
 
